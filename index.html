@@ -1,1 +1,82 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Magical Disappearance</title>
+    <script src="./node_modules/jquery/dist/jquery.js" ></script>
+    <script type="text/javascript">
+        $(function () {
+            $(".pane .delete").click(function () {
+                $(this).parents(".pane").animate({ opacity: 'hide' }, "slow");
+            });
+        });
+    </script>
+    <style type="text/css">
+        body {
+            margin: 10px auto;
+            width: 470px;
+        }
 
+        h3 {
+            margin: 0;
+            padding: 0 0 .3em;
+        }
+
+        p {
+            margin: 0;
+            padding: 0 0 .5em;
+        }
+
+        .pane {
+            background-color: #edf5e1;
+            padding: 10px 20px 10px;
+            position: relative;
+            border-top: solid 2px #c4df9b;
+        }
+
+        .pane .delete {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="pane">
+        <h3>Sample heading</h3>
+        <p>
+            The following example illustrates the click handling code discussed above, embedded directly in the HTML body. Note that in practice, it is usually better to place your code in a separate JS file and load it on the page with a script element's src attribute.
+        </p>
+        <img src="images/btn-delete.gif" alt="delete" class="delete" />
+    </div>
+    <div class="pane">
+        <h3>Sample heading</h3>
+        <p>
+            The following example illustrates the click handling code discussed above, embedded directly in the HTML body. Note that in practice, it is usually better to place your code in a separate JS file and load it on the page with a script element's src attribute.
+        </p>
+        <img src="images/btn-delete.gif" alt="delete" class="delete" />
+    </div>
+    <div class="pane">
+        <h3>Sample heading</h3>
+        <p>
+            The following example illustrates the click handling code discussed above, embedded directly in the HTML body. Note that in practice, it is usually better to place your code in a separate JS file and load it on the page with a script element's src attribute.
+        </p>
+        <img src="images/btn-delete.gif" alt="delete" class="delete" />
+    </div>
+    <div class="pane">
+        <h3>Sample heading</h3>
+        <p>
+            The following example illustrates the click handling code discussed above, embedded directly in the HTML body. Note that in practice, it is usually better to place your code in a separate JS file and load it on the page with a script element's src attribute.
+        </p>
+        <img src="images/btn-delete.gif" alt="delete" class="delete" />
+    </div>
+    <div class="pane">
+        <h3>Sample heading</h3>
+        <p>
+            The following example illustrates the click handling code discussed above, embedded directly in the HTML body. Note that in practice, it is usually better to place your code in a separate JS file and load it on the page with a script element's src attribute.
+        </p>
+        <img src="images/btn-delete.gif" alt="delete" class="delete" />
+    </div>
+</body>
+</html >

@@ -1,0 +1,24 @@
+{
+  "name": "magicalDisappearance",
+  "version": "1.0.0",
+  "description": "Javascript practice, example copied from habr.com a author Anton Shevchuk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jhonah/magicalDisappearance.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jhonah/magicalDisappearance/issues"
+  },
+  "homepage": "https://github.com/Jhonah/magicalDisappearance#readme",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "npm": "^6.14.5"
+  }
+}
